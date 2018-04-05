@@ -8,7 +8,7 @@ print ("Ta pronto mane!")
 while 1:
 	connectionSocket, addr = serverSocket.accept()
 	connectionSocket.recv(1024)
-#	connectionSocket.send(b"HTTP/1.0 200 0K\n")
+	connectionSocket.send(b"HTTP/1.0 200 0K\n")
 	connectionSocket.send(b"""
 		<html>
 		<body>
