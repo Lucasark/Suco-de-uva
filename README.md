@@ -1,1 +1,2 @@
-# Sucu-de-uva
+# Suco-de-uva
+Atividade de Redes - Socked TCP/UDP/HTTP
